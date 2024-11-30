@@ -85,6 +85,7 @@ function sendEmailsWithCustomSignature() {
   }
 
   Logger.log("No emails left to send in this trigger execution.");
+  deleteTriggers();
 }
 
 // Function to delete all triggers
